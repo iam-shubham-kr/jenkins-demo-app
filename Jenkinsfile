@@ -22,6 +22,7 @@ pipeline {
             steps {
                 sh """
                 echo "Building the application"
+                echo "Added some changes"
                 """
             }
         }
